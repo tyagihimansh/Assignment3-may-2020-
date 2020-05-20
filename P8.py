@@ -13,7 +13,7 @@ from matplotlib import cm
 def f(x,y):
 	return np.exp(-(x**2+y**2))
 
-n=100
+n=1000
 x=np.linspace(-50,50,n) ; y=x
 
 X,Y = np.meshgrid(x,y)
